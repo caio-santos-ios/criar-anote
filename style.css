@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+main a {
+    text-decoration: none;
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+main h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(87, 88, 88);
+}
+
+input[type="date"] {
+    text-align: center;
+}
+
+select {
+    width: 250px;
+    height: 20px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: aqua;
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+}
